@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>安心メッセージ</title>
+    <script src="/JS/myscript.js"></script>
+    <link rel="icon" type="image/png" href="/img/logo.png">
+    <link rel="stylesheet" href="/CSS/style.css"
+</head>
+<body>
+    <div class="bg">
+        <div class= "container-progress">
+            <div class="progress-container">
+                <div class ="progress" id="progress"></div>
+                <div class ="circle active">0%</div>
+                <div class ="circle active">25%</div>
+                <div class="circle active">50%</div>
+                <div class="circle active">75%</div>
+                <div class="circle">100%</div>
+            </div>
+        </div>
+        <div class="resultContainer">
+            <div class= adviceResult id ="adviceResultNayami"><br>TEST</div>
+
+        </div>
+        <article class="container">
+            <a href="anshinMessage.html"><article class="arrows prev" href=""></article></a>
+
+            <audio controls src="/just-relax-11157.mp3" class="audioPlayer" id="audioPlayer" autoplay controls controlslist="nodownload noplaybackrate" loop
+                <source  type="audio/mp3">
+            </audio>
+            <article id= "anshin-bubbleID"class="badmsg">
+                という感情が寄り添っています。このような感情を感じることは決して悪いことではありません。感情を否定せずに、ご自身でこの感情を受け入れる（許す）ことが肝心です。</article> 
+            <article class="option">
+                <label>
+                    <input type="radio" name="radio" id="happy"/>
+                    <div class="badbox">
+                        <span>あなたの"気になること"には</span>
+                    </div>
+                </label>
+            </article>
+            
+            <button type="button" class="badMsgBtn" 
+                onclick="window.location.href='complete.html'">OK</button>
+        </article>
+    </div>
+</body>
+</html>

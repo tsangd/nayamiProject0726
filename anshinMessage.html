@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>安心メッセージ</title>
+
+    <link rel="icon" type="image/png" href="/画像/happy.png">
+    <link rel="stylesheet" href="/CSS/style.css"
+</head>
+        <div class="button-column">
+            <button id="allBtn" onclick="allButton()">全て</button>
+            <button id="sadBtn"onclick="sadButton()">悲しい・痛み</button>
+            <button id="happyBtn"onclick="happyButton()">楽しみ・喜び</button>
+            <button id="suprisedBtn"onclick="suprisedButton()">驚き・ドキドキ</button>
+            <button id="scaredBtn"onclick="scaredButton()">恐怖・不安</button>
+            <button id="badBtn"onclick="badButton()">嫌悪・イライラ</button>
+        </div>
+<body onload="move('dragemoji');">
+    <div class="bg">
+        <div class= "container-progress">
+            <div class="progress-container">
+                <div class ="progress" id="progress"></div>
+                <div class ="circle active">0%</div>
+                <div class ="circle active">25%</div>
+                <div class="circle active">50%</div>
+                <div class="circle">75%</div>
+                <div class="circle">100%</div>
+            </div>
+        </div>
+        <div class="container",id="container">
+            <div class="resultContainer">
+                <div class= adviceResult id ="adviceResult1"><img id="adviceResultImg1" src="" alt=""></div>
+                <p id="emoji1"></p>
+                <div class= adviceResult id ="adviceResult2"><img id="adviceResultImg2" src="" alt=""></div>
+                <p id="emoji2"></p>
+                <div class= adviceResult id ="adviceResult3"><img id="adviceResultImg3" src="" alt=""></div>
+                <p id="emoji3"></p>
+            </div>
+            <a href="index.html"><article class="arrows prev"></article></a>
+            <article id= "anshin-bubbleID1"class="anshinBubble">今自信の気持ち</article> 
+            <article class="option">
+                <p id="checkMessage">さて、"気になること"を考えたとき、あなたのこころの中にどの様な感情が芽生えましたか？
+                    いちばん近い思ったものを選択してください。（最大３つまで）</p>
+            </article>
+            <article id= "anshin-bubbleID"class="badmsg1">
+                という感情が寄り添っています。このような感情を感じることは決して悪いことではありません。感情を否定せずに、ご自身でこの感情を受け入れる（許す）ことが肝心です。</article> 
+
+            <div class="canvas">
+                <div class = "emoji-container">
+                    <div class="emoji" id="smile"></div>
+                    <div class="emoji" id="sad"></div>
+                    <div class="emoji" id="normal"></div>
+                    <div class="emoji" id="shocked"></div>
+                    <div class="emoji" id="cry"></div>
+                    <div class="emoji" id="sick"></div>
+                    <div class="emoji" id="suprised"></div>
+                    <div class="emoji" id="verySad"></div>
+                    <div class="emoji" id="worried"></div>
+                </div>
+            </div>
+            <button type="button" class="anshinMsgBtn" id="anshin-msg-btn" onclick="anshinChoice()"><a id="anshinMsgBtnTxt">OK</a></button>
+            <h2 id="emoji-choice">選択：</h2>
+        </div>
+        <audio controls src="/just-relax-11157.mp3" class="audioPlayer2" id="audioPlayer" autoplay controls controlslist="nodownload noplaybackrate" 
+        <source  type="audio/mp3">
+    </audio>
+    </div>
+    
+    <script src="/JS/myscript.js"></script>
+</body>
+</html>
