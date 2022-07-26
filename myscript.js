@@ -65,7 +65,7 @@ function nayamiTextBox(){
         document.getElementById("button-1").addEventListener("click", delayButton);
         counter++;
     }else{
-        window.location.href = "advice.html";
+        window.location.href = "./advice.html";
     }
 }
 
@@ -78,7 +78,7 @@ function delayButton() {
 function anshinChoice(){
     const choice = document.getElementById('anshin-msg-btn');
     if(emojiCount>1 && emojiCount<5){
-        window.location.href ="advice.html";
+        window.location.href ="./advice.html";
     }else{
         alert("感情絵文字を選択しておりませんでした。");
     }
@@ -284,101 +284,101 @@ const move = function(dragEmoji){
                 if(emojiCount<4){
                     if(emoji.style.height == 200+"px"){
                         if(emoji = smileEmoji){
-                            if(document.getElementById("emoji1").innerHTML = ("/emotions/happyEmoji.png")){
+                            if(document.getElementById("emoji1").innerHTML = ("./emotions/happyEmoji.png")){
                                 document.getElementById("emoji1").innerHTML = ("");
                                 document.getElementById("adviceResultImg1").src="";
-                            }else if(document.getElementById("emoji2").innerHTML = ("/emotions/happyEmoji.png")){
+                            }else if(document.getElementById("emoji2").innerHTML = ("./emotions/happyEmoji.png")){
                                 document.getElementById("emoji2").innerHTML = ("");
                                 document.getElementById("adviceResultImg2").src="";
-                            }else if(document.getElementById("emoji3").innerHTML = ("/emotions/happyEmoji.png")){
+                            }else if(document.getElementById("emoji3").innerHTML = ("./emotions/happyEmoji.png")){
                                 document.getElementById("emoji3").innerHTML = ("");
                                 document.getElementById("adviceResultImg3").src="";
                             }
                         }else if(emoji == sadEmoji){
-                            if(document.getElementById("emoji1").innerHTML = ("/emotions/sadEmoji.png")){
+                            if(document.getElementById("emoji1").innerHTML = ("./emotions/sadEmoji.png")){
                                 document.getElementById("emoji1").innerHTML = ("");
                                 document.getElementById("adviceResultImg1").src="";
-                            }else if(document.getElementById("emoji2").innerHTML = ("/emotions/sadEmoji.png")){
+                            }else if(document.getElementById("emoji2").innerHTML = ("./emotions/sadEmoji.png")){
                                 document.getElementById("emoji2").innerHTML = ("");
                                 document.getElementById("adviceResultImg2").src="";
-                            }else if(document.getElementById("emoji3").innerHTML = ("/emotions/sadEmoji.png")){
+                            }else if(document.getElementById("emoji3").innerHTML = ("./emotions/sadEmoji.png")){
                                 document.getElementById("emoji3").innerHTML = ("");
                                 document.getElementById("adviceResultImg3").src="";
                             }
                         }else if(emoji == cryEmoji){
-                            if(document.getElementById("emoji1").innerHTML = ("/emotions/cryEmoji.png")){
+                            if(document.getElementById("emoji1").innerHTML = ("./emotions/cryEmoji.png")){
                                 document.getElementById("emoji1").innerHTML = ("");
                                 document.getElementById("adviceResultImg1").src="";
-                            }else if(document.getElementById("emoji2").innerHTML = ("/emotions/cryEmoji.png")){
+                            }else if(document.getElementById("emoji2").innerHTML = ("./emotions/cryEmoji.png")){
                                 document.getElementById("emoji2").innerHTML = ("");
                                 document.getElementById("adviceResultImg2").src="";
-                            }else if(document.getElementById("emoji3").innerHTML = ("/emotions/cryEmoji.png")){
+                            }else if(document.getElementById("emoji3").innerHTML = ("./emotions/cryEmoji.png")){
                                 document.getElementById("emoji3").innerHTML = ("");
                                 document.getElementById("adviceResultImg3").src="";
                             }
                         }else if(emoji == sickEmoji){
-                            if(document.getElementById("emoji1").innerHTML = ("/emotions/sickEmoji.png")){
+                            if(document.getElementById("emoji1").innerHTML = ("./emotions/sickEmoji.png")){
                                 document.getElementById("emoji1").innerHTML = ("");
                                 document.getElementById("adviceResultImg1").src="";
-                            }else if(document.getElementById("emoji2").innerHTML = ("/emotions/sickEmoji.png")){
+                            }else if(document.getElementById("emoji2").innerHTML = ("./emotions/sickEmoji.png")){
                                 document.getElementById("emoji2").innerHTML = ("");
                                 document.getElementById("adviceResultImg2").src="";
-                            }else if(document.getElementById("emoji3").innerHTML = ("/emotions/sickEmoji.png")){
+                            }else if(document.getElementById("emoji3").innerHTML = ("./emotions/sickEmoji.png")){
                                 document.getElementById("emoji3").innerHTML = ("");
                                 document.getElementById("adviceResultImg3").src="";
                             }
                         }else if(emoji == normalEmoji){
-                            if(document.getElementById("emoji1").innerHTML = ("/emotions/normalEmoji.png")){
+                            if(document.getElementById("emoji1").innerHTML = ("./emotions/normalEmoji.png")){
                                 document.getElementById("emoji1").innerHTML = ("");
                                 document.getElementById("adviceResultImg1").src="";
-                            }else if(document.getElementById("emoji2").innerHTML = ("/emotions/normalEmoji.png")){
+                            }else if(document.getElementById("emoji2").innerHTML = ("./emotions/normalEmoji.png")){
                                 document.getElementById("emoji2").innerHTML = ("");
                                 document.getElementById("adviceResultImg2").src="";
-                            }else if(document.getElementById("emoji3").innerHTML = ("/emotions/normalEmoji.png")){
+                            }else if(document.getElementById("emoji3").innerHTML = ("./emotions/normalEmoji.png")){
                                 document.getElementById("emoji3").innerHTML = ("");
                                 document.getElementById("adviceResultImg3").src="";
                             }
                         }else if(emoji == shockedEmoji){
-                            if(document.getElementById("emoji1").innerHTML = ("/emotions/shockedEmoji.png")){
+                            if(document.getElementById("emoji1").innerHTML = ("./emotions/shockedEmoji.png")){
                                 document.getElementById("emoji1").innerHTML = ("");
                                 document.getElementById("adviceResultImg1").src="";
-                            }else if(document.getElementById("emoji2").innerHTML = ("/emotions/shockedEmoji.png")){
+                            }else if(document.getElementById("emoji2").innerHTML = ("./emotions/shockedEmoji.png")){
                                 document.getElementById("emoji2").innerHTML = ("");
                                 document.getElementById("adviceResultImg2").src="";
-                            }else if(document.getElementById("emoji3").innerHTML = ("/emotions/shockedEmoji.png")){
+                            }else if(document.getElementById("emoji3").innerHTML = ("./emotions/shockedEmoji.png")){
                                 document.getElementById("emoji3").innerHTML = ("");
                                 document.getElementById("adviceResultImg3").src="";
                             }
                         }else if(emoji == verySadEmoji){
-                            if(document.getElementById("emoji1").innerHTML = ("/emotions/verySad.png")){
+                            if(document.getElementById("emoji1").innerHTML = ("./emotions/verySad.png")){
                                 document.getElementById("emoji1").innerHTML = ("");
                                 document.getElementById("adviceResultImg1").src="";
-                            }else if(document.getElementById("emoji2").innerHTML = ("/emotions/verySad.png")){
+                            }else if(document.getElementById("emoji2").innerHTML = ("./emotions/verySad.png")){
                                 document.getElementById("emoji2").innerHTML = ("");
                                 document.getElementById("adviceResultImg2").src="";
-                            }else if(document.getElementById("emoji3").innerHTML = ("/emotions/verySad.png")){
+                            }else if(document.getElementById("emoji3").innerHTML = ("./emotions/verySad.png")){
                                 document.getElementById("emoji3").innerHTML = ("");
                                 document.getElementById("adviceResultImg3").src="";
                             }
                         }else if(emoji == worriedEmoji){
-                            if(document.getElementById("emoji1").innerHTML = ("/emotions/worriedEmoji.png")){
+                            if(document.getElementById("emoji1").innerHTML = ("./emotions/worriedEmoji.png")){
                                 document.getElementById("emoji1").innerHTML = ("");
                                 document.getElementById("adviceResultImg1").src="";
-                            }else if(document.getElementById("emoji2").innerHTML = ("/emotions/worriedEmoji.png")){
+                            }else if(document.getElementById("emoji2").innerHTML = ("./emotions/worriedEmoji.png")){
                                 document.getElementById("emoji2").innerHTML = ("");
                                 document.getElementById("adviceResultImg2").src="";
-                            }else if(document.getElementById("emoji3").innerHTML = ("/emotions/worriedEmoji.png")){
+                            }else if(document.getElementById("emoji3").innerHTML = ("./emotions/worriedEmoji.png")){
                                 document.getElementById("emoji3").innerHTML = ("");
                                 document.getElementById("adviceResultImg3").src="";
                             }
                         }else if(emoji == suprisedEmoji){
-                            if(document.getElementById("emoji1").innerHTML = ("/emotions/shockedEmoji.png")){
+                            if(document.getElementById("emoji1").innerHTML = ("./emotions/shockedEmoji.png")){
                                 document.getElementById("emoji1").innerHTML = ("");
                                 document.getElementById("adviceResultImg1").src="";
-                            }else if(document.getElementById("emoji2").innerHTML = ("/emotions/suprisedEmoji.png")){
+                            }else if(document.getElementById("emoji2").innerHTML = ("./emotions/suprisedEmoji.png")){
                                 document.getElementById("emoji2").innerHTML = ("");
                                 document.getElementById("adviceResultImg2").src="";
-                            }else if(document.getElementById("emoji3").innerHTML = ("/emotions/shockedEmoji.png")){
+                            }else if(document.getElementById("emoji3").innerHTML = ("./emotions/shockedEmoji.png")){
                                 document.getElementById("emoji3").innerHTML = ("");
                                 document.getElementById("adviceResultImg3").src="";
                             }
@@ -392,31 +392,31 @@ const move = function(dragEmoji){
                         if(emojiCount==1){
                             if(emoji == smileEmoji){
                                 document.getElementById("emoji1").innerHTML = ("楽しみ・喜び");
-                                document.getElementById("adviceResultImg1").src="/emotions/happyEmoji.png";
+                                document.getElementById("adviceResultImg1").src="./emotions/happyEmoji.png";
                             }else if(emoji == sadEmoji){
                                 document.getElementById("emoji1").innerHTML = ("悲しみ・痛み");
-                                document.getElementById("adviceResultImg1").src ="/emotions/sadEmoji.png";
+                                document.getElementById("adviceResultImg1").src ="./emotions/sadEmoji.png";
                             }else if(emoji == cryEmoji){
                                 document.getElementById("emoji1").innerHTML = ("悲しみ・痛み");
-                                document.getElementById("adviceResultImg1").src = "/emotions/cryEmoji.png";
+                                document.getElementById("adviceResultImg1").src = "./emotions/cryEmoji.png";
                             }else if(emoji == sickEmoji){
                                 document.getElementById("emoji1").innerHTML = ("嫌悪・イライラ");
-                                document.getElementById("adviceResultImg1").src ="/emotions/sickEmoji.png";
+                                document.getElementById("adviceResultImg1").src ="./emotions/sickEmoji.png";
                             }else if(emoji == normalEmoji){
                                 document.getElementById("emoji1").innerHTML = ("驚き・ドキドキ");
-                                document.getElementById("adviceResultImg1").src="/emotions/normalEmoji.png";
+                                document.getElementById("adviceResultImg1").src="./emotions/normalEmoji.png";
                             }else if(emoji == shockedEmoji){
                                 document.getElementById("emoji1").innerHTML = ("恐怖・不安");
-                                document.getElementById("adviceResultImg1").src="/emotions/shockedEmoji.png";
+                                document.getElementById("adviceResultImg1").src="./emotions/shockedEmoji.png";
                             }else if(emoji == verySadEmoji){
                                 document.getElementById("emoji1").innerHTML = ("悲しみ・痛み");
-                                document.getElementById("adviceResultImg1").src ="/emotions/verySad.png";
+                                document.getElementById("adviceResultImg1").src ="./emotions/verySad.png";
                             }else if(emoji == worriedEmoji){
                                 document.getElementById("emoji1").innerHTML = ("恐怖・不安");
-                                document.getElementById("adviceResultImg1").src="/emotions/worriedEmoji.png";
+                                document.getElementById("adviceResultImg1").src="./emotions/worriedEmoji.png";
                             }else if(emoji == suprisedEmoji){
                                 document.getElementById("emoji1").innerHTML = ("驚き・ドキドキ");
-                                document.getElementById("adviceResultImg1").src="/emotions/suprisedEmoji.png";
+                                document.getElementById("adviceResultImg1").src="./emotions/suprisedEmoji.png";
                             }
                             emoji.style.width = 200+"px";
                             emoji.style.height = 200+"px";
@@ -426,31 +426,31 @@ const move = function(dragEmoji){
                         }else if(emojiCount==2){
                             if(emoji == smileEmoji){
                                 document.getElementById("emoji2").innerHTML = ("楽しみ・喜び");
-                                document.getElementById("adviceResultImg2").src="/emotions/happyEmoji.png";
+                                document.getElementById("adviceResultImg2").src="./emotions/happyEmoji.png";
                             }else if(emoji == sadEmoji){
                                 document.getElementById("emoji2").innerHTML = ("悲しみ・痛み");
-                                document.getElementById("adviceResultImg2").src="/emotions/sadEmoji.png";
+                                document.getElementById("adviceResultImg2").src="./emotions/sadEmoji.png";
                             }else if(emoji == cryEmoji){
                                 document.getElementById("emoji2").innerHTML = ("悲しみ・痛み");
-                                document.getElementById("adviceResultImg2").src="/emotions/cryEmoji.png";
+                                document.getElementById("adviceResultImg2").src="./emotions/cryEmoji.png";
                             }else if(emoji == sickEmoji){
                                 document.getElementById("emoji2").innerHTML = ("嫌悪・イライラ");
-                                document.getElementById("adviceResultImg2").src="/emotions/sickEmoji.png";
+                                document.getElementById("adviceResultImg2").src="./emotions/sickEmoji.png";
                             }else if(emoji == normalEmoji){
                                 document.getElementById("emoji2").innerHTML = ("驚き・ドキドキ");
-                                document.getElementById("adviceResultImg2").src="/emotions/normalEmoji.png";
+                                document.getElementById("adviceResultImg2").src="./emotions/normalEmoji.png";
                             }else if(emoji == shockedEmoji){
                                 document.getElementById("emoji2").innerHTML = ("恐怖・不安");
-                                document.getElementById("adviceResultImg2").src="/emotions/shockedEmoji.png";
+                                document.getElementById("adviceResultImg2").src="./emotions/shockedEmoji.png";
                             }else if(emoji == verySadEmoji){
                                 document.getElementById("emoji2").innerHTML = ("悲しみ・痛み");
-                                document.getElementById("adviceResultImg2").src="/emotions/verySad.png";
+                                document.getElementById("adviceResultImg2").src="./emotions/verySad.png";
                             }else if(emoji == worriedEmoji){
                                 document.getElementById("emoji2").innerHTML = ("恐怖・不安");
-                                document.getElementById("adviceResultImg2").src="/emotions/worriedEmoji.png";;
+                                document.getElementById("adviceResultImg2").src="./emotions/worriedEmoji.png";;
                             }else if(emoji == suprisedEmoji){
                                 document.getElementById("emoji2").innerHTML = ("驚き・ドキドキ");
-                                document.getElementById("adviceResultImg2").src = "/emotions/suprisedEmoji.png";;
+                                document.getElementById("adviceResultImg2").src = "./emotions/suprisedEmoji.png";;
                             }
                             emoji.style.width = 200+"px";
                             emoji.style.height = 200+"px";
@@ -460,31 +460,31 @@ const move = function(dragEmoji){
                         }else if(emojiCount==3){
                             if(emoji == smileEmoji){
                                 document.getElementById("emoji3").innerHTML = ("楽しみ・喜び");
-                                document.getElementById("adviceResultImg3").src="/emotions/happyEmoji.png";
+                                document.getElementById("adviceResultImg3").src="./emotions/happyEmoji.png";
                             }else if(emoji == sadEmoji){
                                 document.getElementById("emoji3").innerHTML = ("悲しみ・痛み");
-                                document.getElementById("adviceResultImg3").src="/emotions/sadEmoji.png";
+                                document.getElementById("adviceResultImg3").src="./emotions/sadEmoji.png";
                             }else if(emoji == cryEmoji){
                                 document.getElementById("emoji3").innerHTML = ("悲しみ・痛み");
-                                document.getElementById("adviceResultImg3").src="/emotions/cryEmoji.png";;
+                                document.getElementById("adviceResultImg3").src="./emotions/cryEmoji.png";;
                             }else if(emoji == sickEmoji){
                                 document.getElementById("emoji3").innerHTML = ("嫌悪・イライラ");
-                                document.getElementById("adviceResultImg3").src="/emotions/sickEmoji.png";
+                                document.getElementById("adviceResultImg3").src="./emotions/sickEmoji.png";
                             }else if(emoji == normalEmoji){
                                 document.getElementById("emoji3").innerHTML = ("驚き・ドキドキ");
-                                document.getElementById("adviceResultImg3").src="/emotions/normalEmoji.png";
+                                document.getElementById("adviceResultImg3").src="./emotions/normalEmoji.png";
                             }else if(emoji == shockedEmoji){
                                 document.getElementById("emoji3").innerHTML = ("恐怖・不安");
-                                document.getElementById("adviceResultImg3").src="/emotions/shockedEmoji.png";
+                                document.getElementById("adviceResultImg3").src="./emotions/shockedEmoji.png";
                             }else if(emoji == verySadEmoji){
                                 document.getElementById("emoji3").innerHTML = ("悲しみ・痛み");
-                                document.getElementById("adviceResultImg3").src="/emotions/verySad.png";;
+                                document.getElementById("adviceResultImg3").src="./emotions/verySad.png";;
                             }else if(emoji == worriedEmoji){
                                 document.getElementById("emoji3").innerHTML = ("恐怖・不安");
-                                document.getElementById("adviceResultImg3").src="/emotions/worriedEmoji.png";;
+                                document.getElementById("adviceResultImg3").src="./emotions/worriedEmoji.png";;
                             }else if(emoji == suprisedEmoji){
                                 document.getElementById("emoji3").innerHTML = ("驚き・ドキドキ");
-                                document.getElementById("adviceResultImg3").src="/emotions/suprisedEmoji.png";;
+                                document.getElementById("adviceResultImg3").src="./emotions/suprisedEmoji.png";;
                             }
                             emoji.style.width = 200+"px";
                             emoji.style.height = 200+"px";
